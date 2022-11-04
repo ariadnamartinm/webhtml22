@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>PÁRRAFOS</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>ENLACES</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>LISTAS</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>TABLAS</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>FORMULARIOS</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>MULTIMEDIA</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>FORM-HTML5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="tablas">
+                    
+                    <h2>Tabla de encabezado de fila</h2>
+                    <!-- table>(tr>th*3)+(tr>td*3)*6 -->
+                    <!-- /*tr fila td columna th importantes//-->
+                    
+                    <table border="1">
+                        <tr class="tr">
+                            <th>Company</th>
+                            <th>Contact</th>
+                            <th>Count</th>
+                        </tr>
+                        <tr class="tr2">
+                            <td>Alfreds</td>
+                            <td>Maria </td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr class="tr2">
+                            <td>Centro comercial</td>
+                            <td>Francisco</td>
+                            <td>Mexico</td>
+                        </tr>
+                        <tr class="tr2">
+                            <td>Enrs Handel</td>
+                            <td>Roland</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr class="tr2">
+                            <td>Island</td>
+                            <td>Helen</td>
+                            <td>UK</td>
+                        </tr>
+                        <tr class="tr2">
+                            <td>Laughing</td>
+                            <td>Yoshi</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr class="tr2">
+                            <td>Magazzini</td>
+                            <td>Giovanni</td>
+                            <td>Italy</td>
+                        </tr>
+                    </table>
+
+                    <h2>Tabla de encabezado de columna</h2>
+                    <table border="1">
+                        <tr class="tr">
+                            <th>Company</th>
+                            <td>Contact</td>
+                            <td>Country</td>
+
+                        </tr>
+                        <tr class="tr2">
+                            <th>Alfreds Futterkiste</th>
+                            <td>Maria Anders</td>
+                            <td>Germany</td>
+
+                        </tr>
+                        <tr class="tr2">
+                            <th>Centro Comercial Moctezuma</th>
+                            <td>Francisco Chang</td>
+                            <td>Mexico</td>
+
+                        </tr>
+                        <tr class="tr2">
+                            <th>Ernst Handel</th>
+                            <td>Roland Mendel</td>
+                            <td>Austria</td>
+
+                        </tr>
+                        <tr class="tr2">
+                            <th>Island Trading</th>
+                            <td>Helen Bennet</td>
+                            <td>UK</td>
+
+                        </tr>
+                        <tr class="tr2">
+                            <th>Laughing baccus</th>
+                            <td>Yoshi Tannamuri</td>
+                            <td>Canada</td>
+
+                        </tr>
+                        <tr class="tr2">
+                            <th>Magazzini Alimentari</th>
+                            <td>Giovanni Rovelli</td>
+                            <td>Italy</td>
+
+                        </tr>
+                    </table>
+
+                    <h2>Tabla con combinacion de celdas</h2>
+                    <table border="1">
+                        <tr>
+                            <th>Company</th>
+                            <th>Contact</th>
+                            <th>Count</th>
+                        </tr>
+                        <tr>
+                            <td>Alfreds</td>
+                            <td>Maria </td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr>
+                            <td>Centro comercial</td>
+                            <td colspan="2">Francisco </td>
+
+                        </tr>
+                        <tr>
+                            <td>Enrs Handel</td>
+                            <td>Roland</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr>
+                            <td>Island</td>
+                            <td>Helen</td>
+                            <td>UK</td>
+                        </tr>
+                        <tr>
+                            <td>Laughing</td>
+                            <td>Yoshi</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr>
+                            <td>Magazzini</td>
+                            <td>Giovanni</td>
+                            <td>Italy</td>
+                        </tr>
+                    </table>
+                    <h1><br></h1>
+
+                    <h2>Tabla striped</h2>
+                    <table border="1" class="striped">
+
+                        <tr>
+                            <th>Company</th>
+                            <th>Contact</th>
+                            <th>Count</th>
+                        </tr>
+                        <tr>
+                            <td>Alfreds</td>
+                            <td>Maria </td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr>
+                            <td>Centro comercial</td>
+                            <td>Francisco </td>
+                            <td>Mexico</td>
+
+                        </tr>
+                        <tr>
+                            <td>Enrs Handel</td>
+                            <td>Roland</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr>
+                            <td>Island</td>
+                            <td>Helen</td>
+                            <td>UK</td>
+                        </tr>
+                        <tr>
+                            <td>Laughing</td>
+                            <td>Yoshi</td>
+                            <td>Canada</td>
+                        </tr>
+                        <tr>
+                            <td>Magazzini</td>
+                            <td>Giovanni</td>
+                            <td>Italy</td>
+                        </tr>
+                    </table>
+
+                    <h1> <br> </h1>
+
+                    <table border="1" class="fondotabla">
+
+                        <tr>
+                            <th colspan="6" class="colorletra">S1DAW</th>
+                        </tr>
+
+                        <tr class="colorletra">
+                            <th>/~\</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miercoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                        </tr>
+
+                        <tr class="text-center">
+                            <th class="colorletra">
+                                8:15 <br> 9:10
+                            </th>
+                            <td rowspan="2" class="bdd">BDD <br>Bern. Be, Cr <br>(1 B-301) </td>
+                            <td class="fol">FOL <br>Prud. Ga, Es <br>(1 B-301)</td>
+                            <td class="ende">ENDE <br>Polo Or, Ed <br>(1 B-301)</td>
+                            <td rowspan="2" class="sisi">SISI <br>Álva. Gi, An <br>(1 B-301)</td>
+                            <td rowspan="2" class="sisi">SISI <br>Álva. Gi, An <br>(1 B-301)</td>
+
+                        </tr>
+
+                        <tr class="text-center">
+                            <th class="colorletra">
+                                9:10 <br> 10:05
+                            </th>
+                            <td class="ende">ENDE <br>Polo Or, Ed <br>(1 B-301)</td>
+                            <td class="fol">FOL <br>Prud. Ga, Es <br>(1 B-301)</td>
+                        </tr>
+
+                        <tr class="text-center">
+                            <th class="colorletra">
+                                10:05 <br> 11:00
+                            </th>
+                            <td class="sisi">SISI <br>Álva. Gi, An <br>(1 B-301)</td>
+                            <td class="prog">PROG <br>Mart Ca, JoJa <br>(1 B-301)</td>
+                            <td class="prog">PROG <br>Mart Ca, JoJa <br>(1 B-301)</td>
+                            <td class="prog">PROG <br>Mart Ca, JoJa <br>(1 B-301)</td>
+                            <td class="ing">ING <br>Corr Pi, JoMa <br>(1 B-301)</td>
+                        </tr>
+                        <th></th>
+                         <th class="colorletra" colspan="6" >recreo</th>
+
+                        <tr class="text-center">
+
+                            <th class="colorletra">
+                                11:30 <br> 12:25
+                            </th>
+                            <td class="sisi">SISI <br>Álva. Gi, An <br>(1 B-301)</td>
+                            <td class="prog">PROG <br>Mart Ca, JoJa <br>(1 B-301)</td>
+                            <td class="prog">PROG <br>Mart Ca, JoJa <br>(1 B-301)</td>
+                            <td class="prog">PROG <br>Mart Ca, JoJa <br>(1 B-301)</td>
+                            <td class="ende">ENDE <br>Polo Or, Ed <br>(1 B-301)</td>
+                        </tr>
+
+                        <tr class="text-center">
+
+                            <th class="colorletra">
+                                12:25 <br> 13:20
+                            </th>
+                            <td rowspan="2" class="lmsg">LMSG <br>Pulli. Mo, FrJo <br>(1 B-301)</td>
+                            <td rowspan="2" class="bdd">BDD <br>Bern. Be, Cr <br>(1 B-301) </td>
+                            <td rowspan="2" class="bdd">BDD <br>Bern. Be, Cr <br>(1 B-301) </td>
+                            <td class="fol">FOL <br>Prud. Ga, Es <br>(1 B-301)</td>
+                            <td rowspan="2" class="lmsg">LMSG <br>Pulli. Mo, FrJo <br>(1 B-301)</td>
+                            
+                        </tr>
+                        <tr class="text-center">
+                            <th class="colorletra">
+                                13:20 <br> 14:15
+                            </th>                          
+                            <td class="ing">ING <br>Corr Pi, JoMa <br>(1 B-301)</td>                           
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Ariadna Martin - S1DAM</footer>
+    </div>
+</body>
+
+</html>
