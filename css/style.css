@@ -13,6 +13,7 @@ a {
     width: 85%;
     margin: 0 auto;
     background-color: rgb(212, 211, 211);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -168,6 +169,19 @@ nav ul li:hover {
 .colorletra{
     color: #0e59a3;
 }
+
+.combinaciona{
+  background-color: #bcbceb;
+}
+
+.combinacionb{
+  background-color: #9bdbbb;
+}
+ .tabla1{
+  border-radius: 10px;
+  border: #c5a8b8 8px dotted;
+ }
+
 
 
 a {
@@ -377,9 +391,16 @@ width: 30%;
  
 .user{
  background-image:url(../img/user.png);
- padding: 50%  no-repeat;
- 
+ background-size: 17px;
+ background-repeat: no-repeat;
+ padding-left: 20px;
+}
 
+.contraseña {
+  background-image:url(../img/contraseña.png);
+  background-size: 17px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
 }
 
 .logo{
@@ -388,4 +409,37 @@ width: 30%;
   margin-right: auto;
   width: 50%;
   
+}
+
+
+ul.ldc li {
+  list-style-type: square;
+}
+ul.ldc li ul li{
+  list-style-type: circle;
+}
+ul.ldc li ul li ul li{
+  list-style-type: disc;
+}
+/*    ordenada customizada */
+ol.loc li {
+  list-style-type: upper-alpha;
+}
+ol.loc li ol li{
+  list-style-type: upper-roman;
+}
+ol.loc li ol li ol li{
+  list-style-type: decimal;
+}
+ol.loci li ol li {
+  list-style-image: url(../img/heart.png);
+}
+ol.loci li ol li ol li {
+  list-style-type: lower-alpha;
+  list-style-image: none;
+}
+dt {
+  color: rgb(122, 122, 122);
+  font-size: 30px;
+  font-weight: bold;
 }
